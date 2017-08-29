@@ -1,0 +1,19 @@
+{
+  "name": "demovue",
+  "version": "1.0.0",
+  "description": "Demo Vue.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caprica-Six/demo-vuejs.git"
+  },
+  "author": "Pepa Domozetska",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caprica-Six/demo-vuejs/issues"
+  },
+  "homepage": "https://github.com/caprica-Six/demo-vuejs#readme"
+}
