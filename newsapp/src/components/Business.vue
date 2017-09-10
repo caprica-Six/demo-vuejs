@@ -1,7 +1,7 @@
 <template>
-  <div class="home">
+  <div class="business">
     <div class="row">
-      <div class="col-md-9">
+      <div class="col">
         <div class="main-content">
           <h1 class="content-headline">Most viewed</h1>
 
@@ -22,16 +22,13 @@
           </ul>
         </div>
       </div>
-      <sidebar></sidebar>
-
     </div> <!-- end row -->
   </div>
 </template>
 
 <script>
-import sidebar from '../components/Sidebar'
 export default {
-  name: 'home',
+  name: 'business',
   props: ['source'],
   data () {
     return {
@@ -40,7 +37,7 @@ export default {
   },
   methods: {
     updateSource: function (source) {
-      this.$http.get('https://newsapi.org/v1/articles?source=the-guardian-uk&sortBy=top&apiKey=451e64a91bcd42b9b3abc03a855eb354')
+      this.$http.get('https://newsapi.org/v1/articles?source=bbc-news&sortBy=top&apiKey=451e64a91bcd42b9b3abc03a855eb354')
         .then(response => {
           this.articles = response.data.articles
         })
@@ -53,9 +50,6 @@ export default {
     source: function (val) {
       this.updateSource(val)
     }
-  },
-  components: {
-    sidebar
   }
 }
 </script>

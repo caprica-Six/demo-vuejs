@@ -1,7 +1,7 @@
 <template>
   <div id="app" class="app">
     <header class="navbar navbar-dark bg-dark">
-      <nav class="container">
+      <nav class="container" role="navigation">
         <div class="d-flex justify-content-between hidden-lg-up">
           <router-link class="navbar-brand" href="#" to='/'>newsapp</router-link>
           <router-link class="nav-link" href="#" to='/'>home</router-link>
@@ -11,10 +11,7 @@
     </header>
 
     <main class="container main" role="main">
-      <router-view>
-        <home></home>
-        <business></business>
-      </router-view>
+      <router-view></router-view>
     </main>
 
     <footer class="footer small">
@@ -41,14 +38,8 @@
 </template>
 
 <script>
-import home from './components/Home'
-import business from './components/Business'
 export default {
-  name: 'app',
-  components: {
-    home,
-    business
-  }
+  name: 'app'
 }
 </script>
 

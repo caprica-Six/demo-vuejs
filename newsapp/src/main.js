@@ -24,7 +24,7 @@ const routes = [
     component: home
   },
   {
-    path: '/',
+    path: '/business',
     name: 'business',
     component: business
   },
