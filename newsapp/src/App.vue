@@ -10,8 +10,10 @@
       </nav>
     </header>
 
-    <main class="container main" role="main">
-      <router-view></router-view>
+    <main class="container" role="main">
+      <div class="main">
+        <router-view></router-view>
+      </div>
     </main>
 
     <footer class="footer small">
@@ -19,7 +21,7 @@
         <div class="row">
           <div class="col">
             <div class="list-group">
-              <ul class="list-unstyled d-inline-flex justify-content-md-center">
+              <ul class="list-unstyled justify-content-md-center d-lg-inline-flex">
                 <li class="nav-link">Copyright @ 2017 Pepa Domozetska.</li>
                 <li class="nav-link">Built with</li>
                 <li><a href="https://vuejs.org/" class="nav-link" target="_blank">Vue.js</a></li>

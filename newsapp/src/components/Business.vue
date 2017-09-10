@@ -3,12 +3,12 @@
     <div class="row">
       <div class="col">
         <div class="main-content">
-          <h1 class="content-headline mb-4 pb-2">Most viewed</h1>
+          <h1 class="content-headline mb-4 pb-2">Business</h1>
 
           <ul class="list-unstyled">
             <li class="media my-3" v-for="article in articles">
               <a v-bind:href="article.url" target="_blank">
-                <img class="media-object d-flex mr-3" v-bind:src="article.urlToImage">
+                <img class="media-object d-flex mr-3 mb-1" v-bind:src="article.urlToImage">
               </a>
 
               <div class="media-body">

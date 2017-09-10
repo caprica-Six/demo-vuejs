@@ -9,7 +9,7 @@
         <ul class="list-unstyled">
           <li class="media my-3" v-for="article in articles">
             <a v-bind:href="article.url" target="_blank">
-              <img class="media-object d-flex mr-2" v-bind:src="article.urlToImage">
+              <img class="media-object d-flex mr-2 mb-1" v-bind:src="article.urlToImage">
             </a>
 
             <div class="media-body">
