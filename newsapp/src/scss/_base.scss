@@ -3,13 +3,22 @@
 */
 
 body {
-  color: #363636;
+  color: #212121;
   font-family: 'Lato', 'Helvetica Neue', Arial, sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   line-height: 1.35;
+}
+
+a {
+  color: #0D47A1;
+
+  &:hover,
+  &:focus {
+    text-decoration: none;
+  }
 }
 
 img {

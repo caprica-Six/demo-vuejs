@@ -27,7 +27,7 @@
                 <li><a href="http://sass-lang.com/" class="nav-link" target="_blank">SASS</a></li>
                 <li><a href="https://github.com/mzabriskie/axios" class="nav-link" target="_blank">Axios</a></li>
                 <li><a href="https://webpack.js.org/" class="nav-link" target="_blank">Webpack</a></li>
-                <li class="nav-link ml-10">powered by<a href="https://newsapi.org/" target="_blank"> NewsAPI.org</a></li>
+                <li class="nav-link ml-10">powered by <a href="https://newsapi.org/" target="_blank">NewsAPI.org</a></li>
               </ul>
             </div>
           </div>

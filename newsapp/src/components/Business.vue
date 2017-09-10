@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col">
         <div class="main-content">
-          <h1 class="content-headline">Most viewed</h1>
+          <h1 class="content-headline mb-4 pb-2">Most viewed</h1>
 
           <ul class="list-unstyled">
             <li class="media my-3" v-for="article in articles">
@@ -15,7 +15,7 @@
                 <h5 class="media-heading" itemprop="headline">
                   <a v-bind:href="article.url" target="_blank">{{article.title}}</a>
                 </h5>
-                <h5><i>by {{article.author}}</i></h5>
+                <h6 class="author"><i>by {{article.author}}</i></h6>
                 <p>{{article.description}}</p>
               </div>
             </li>

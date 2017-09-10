@@ -2,7 +2,7 @@
   <aside class="sidebar col-md-3">
     <div class="row">
       <div class="col">
-        <div class="content-headline">
+        <div class="content-headline mb-4 pt-3">
           <h4>Most popular</h4>
         </div>
 

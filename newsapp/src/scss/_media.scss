@@ -2,15 +2,40 @@
 ** Media
 */
 
+
+.media .media-heading {
+  &::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 1px;
+    background: #0D47A1;
+    transition: width .3s;
+  }
+
+  &:hover::after {
+      width: 100%;
+  }
+}
+
 .media-heading,
 .content-headline {
-  font-family: Georgia, serif;
+  font-family: "PT Serif", serif;
+
+  a {
+    color: #0D47A1;
+  }
 }
 
 .content-headline {
+  border-bottom: 1px solid #CFD8DC;
   line-height: 1.5rem;
 }
 
+.author {
+  color: #767676;
+  font-size: 0.9em;
+}
 
 /* Main content area */
 .main {
@@ -31,7 +56,7 @@
   }
 
   .content-headline {
-    font-size: 1.35rem;
+    font-size: 1rem;
   }
 
   .media-heading {
