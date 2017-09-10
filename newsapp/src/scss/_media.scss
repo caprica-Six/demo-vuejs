@@ -1,0 +1,41 @@
+/*
+** Media
+*/
+
+.media-heading,
+.content-headline {
+  font-family: Georgia, serif;
+}
+
+.content-headline {
+  line-height: 1.5rem;
+}
+
+
+/* Main content area */
+.main {
+  .media-object {
+    width: 220px;
+  }
+
+  .content-headline {
+    font-size: 1.75rem;
+  }
+}
+
+
+/* Sidebar */
+.sidebar {
+  .media-object {
+    width: 120px;
+  }
+
+  .content-headline {
+    font-size: 1.35rem;
+  }
+
+  .media-heading {
+    font-size: 1rem;
+    line-height: 1.25rem;
+  }
+}

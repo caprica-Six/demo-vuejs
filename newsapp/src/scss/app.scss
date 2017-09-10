@@ -1,0 +1,12 @@
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "_base.scss";
+@import "_media.scss";
+@import "_navbar.scss";
+@import "_footer.scss";
+
+/* Global; */
+
+main {
+  min-height: 100vh;
+  padding: 3em 0;
+}
