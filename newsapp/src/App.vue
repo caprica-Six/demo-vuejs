@@ -22,7 +22,7 @@
           <div class="col">
             <div class="list-group">
               <ul class="list-unstyled justify-content-md-center d-lg-inline-flex">
-                <li class="nav-link">Copyright @ 2017 Pepa Domozetska.</li>
+                <li class="nav-link">@ 2018 Pepa Dom.</li>
                 <li class="nav-link">Built with</li>
                 <li><a href="https://vuejs.org/" class="nav-link" target="_blank">Vue.js</a></li>
                 <li><a href="https://getbootstrap.com/" class="nav-link" target="_blank">Bootstrap 4</a></li>
@@ -45,8 +45,6 @@ export default {
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-
 <style lang="sass">
-  @import "./scss/app.scss";
+  @import "./scss/app.scss"
 </style>

@@ -4,10 +4,9 @@ import Vue from 'vue'
 import App from './App'
 import VueRouter from 'vue-router'
 import axios from 'axios'
-import VueAxios from 'vue-axios'
 
 Vue.use(VueRouter)
-Vue.use(VueAxios, axios)
+Vue.prototype.$axios = axios
 
 Vue.config.productionTip = false
 

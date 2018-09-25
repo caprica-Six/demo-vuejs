@@ -25,6 +25,8 @@
 </template>
 
 <script>
+import axios from 'axios'
+
 export default {
   name: 'sidebar',
   props: ['source'],
@@ -35,7 +37,7 @@ export default {
   },
   methods: {
     updateSource: function (source) {
-      this.$http.get('https://newsapi.org/v1/articles?source=cnn&sortBy=top&apiKey=451e64a91bcd42b9b3abc03a855eb354')
+      axios.get('https://newsapi.org/v1/articles?source=cnn&sortBy=top&apiKey=451e64a91bcd42b9b3abc03a855eb354')
         .then(response => {
           this.articles = response.data.articles
         })
@@ -52,7 +54,3 @@ export default {
 }
 </script>
 
-<style scoped>
-
-
-</style>
